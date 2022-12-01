@@ -1,0 +1,2 @@
+1) write a program to findout & display simple interest of given amount,rate,year.
+1) write a program to findout grams of given kilogram.
