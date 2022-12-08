@@ -1,14 +1,22 @@
+import 'dart:io';
+
 void main() {
   //create dynamic variable
-  dynamic value = "the easylearn academy";
+  dynamic value;
+  print("what is your name?");
+  value = stdin.readLineSync();
   print(value);
 
-  value = 10.2;
+  print("what is your age?");
+  value = int.parse(stdin.readLineSync().toString());
+  print(value);
+
+  print("what is your weight?");
+  value = double.parse(stdin.readLineSync().toString());
   print(value);
 
   value = true;
   print(value);
 
-  value = 91;
-  print(value);
+  
 }

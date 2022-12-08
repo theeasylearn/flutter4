@@ -1,22 +1,17 @@
 void main() {
   //create final variables
-  //1st method
-  final city = "bhavnagar";
-  print(city);
+  final country = "India";
+  final int code = 91;
 
-  //2nd method
-  final String country = "India";
-  print(country);
-
-  //3rd method
-  const code = 91;
-  print(code);
-
-  //4th method
+  const isMarried = true;
   const double pi = 3.14;
+
+  print(country);
+  print(code);
+  print(isMarried);
   print(pi);
 
-  //pi = 10000;
-  print("Good bye...");
-  //change
+  // code = 100;
+  print("Good bye..");
+  
 }
