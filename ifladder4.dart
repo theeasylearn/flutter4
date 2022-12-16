@@ -10,7 +10,7 @@ void main() {
 
   int month = 4;
   int date = 18;
-  if ((month >=3 && date>=21 ) || (month<=4 && date<=19))
+  if ((month ==3 && date>=21 ) || (month==4 && date<=19))
   {
     print("your zodiac sign is arie and symbol is ram ");
   }
