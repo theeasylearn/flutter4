@@ -1,13 +1,16 @@
-// Write a programe to findout wether the user given number is ood or even
+// Write a program to findout whether the user given number is odd or even
 import 'dart:io';
 
 void main() {
   print("Enter your number ");
-  int number = int.parse(stdin.readLineSync().toString());
+  int number = int.parse(stdin.readLineSync().toString()); //7
 
-  if (number % 2 != 0) {
+  if (number % 2 != 0) 
+  {
     print("it is odd number ");
-  } else {
+  } 
+  else 
+  {
     print("it is even number ");
   }
   print("Goodbyee..");
