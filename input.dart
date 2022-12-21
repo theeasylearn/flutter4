@@ -12,6 +12,4 @@ void main() {
   print("what is your weight?");
   double weight = double.parse(stdin.readLineSync().toString());
   print("your weight is $weight");
-
-  
 }

@@ -9,7 +9,8 @@ void main() {
   reminder1 = year % 4;
   reminder2 = year % 100;
   print("reminder1 = $reminder1 and reminder2 = $reminder2");
-  if (reminder1 == 0 && reminder2 != 0) {
+  if (reminder1 == 0 && reminder2 != 0) 
+  {
     print("$year is leap year");
   } 
   else 
@@ -23,6 +24,5 @@ void main() {
     {
       print("$year is not leap year");
     }
-    
   }
 }
