@@ -62,3 +62,20 @@ develop each pattern using while, for, do while loop
 1, 5, 12, 22, 35, 51, 70, 92, 117, 145, 176 ... 300
 
 1, 6, 15, 28, 45, 66, 91, 120, 153, 190, 231 .. 1000
+
+functions
+----------------------------------------------------------------------
+
+develop dart program that has the following function
+
+1) getSquare() function that has one argument and return square of given arguments 
+2) getInterest() function that has 3 argument amount, rate, year and return simple interest 
+3) ShowAmountAsWords() function that display that has one integer argument. input should be less then 100. this function does not return anything
+    input = 65 then output should be six five 
+4) develop following lambda function 
+    add()
+    sub()
+    mul()
+    div()
+
+    all above function has two double argument and return result of add,sub,mul,div 
