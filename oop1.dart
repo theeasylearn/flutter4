@@ -1,8 +1,11 @@
 class Person {
+  //instance variable
   String name = 'Jiya';
   int age = 10;
   double weight = 21.25;
   bool gender = true;
+  
+  //methods
   void display() {
     print("Name = $name");
     print("age = $age");
